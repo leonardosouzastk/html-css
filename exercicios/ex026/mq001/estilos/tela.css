@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: lightgrey;
+}
+
+header h1{
+    text-align: center;
+    padding: 5px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(185, 166, 143, 0.466);
+    padding: 30px;
+    height: 90vh;
+    border-radius: 0px 0px 15px 15px;
+}
+
+main p {
+    margin-top: 10px;
+}
