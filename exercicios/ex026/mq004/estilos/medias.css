@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
-/* Typical Device Breakpoints
+/* 
+
+Typical Device Breakpoints
+
 pequenas telas:até 500px
 celular:767px
 tablet:768px até 1024px
 pc:1024px até 1440px
 tv:1440px pra frente
-
-
 */
 @media print{
     *{
