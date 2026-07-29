@@ -6,27 +6,27 @@
     <title>Flexbox</title>
     <style>
         div.conteiner{
-            display: flex;
             background-color: lightsalmon;
-            
+
+            display: flex;
+            flex-flow: row nowrap;
         }
         div.item{
             background-color: lightskyblue;
-            border: 2px solid black;
+            border: 1px solid black;
             text-align: center;
-            flex: auto;
+            flex-basis: 250px;
+            flex-grow: 1;
+            flex-shrink: 1;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus laudantium excepturi voluptatem nihil, cumque nulla accusantium enim delectus ad voluptates perspiciatis. Repudiandae veritatis debitis rerum ipsum nobis aliquid adipisci?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam accusantium rerum sed corporis voluptas quia, ducimus nulla eum molestiae, explicabo, provident natus veritatis perspiciatis enim velit vel in expedita numquam!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolorum iure quaerat quo aut sequi omnis consequuntur illum magni, quia impedit numquam autem quas officiis perferendis? Debitis ex laborum nam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis commodi ratione, nisi ducimus repudiandae! Quisquam fugit, fuga consectetur laboriosam eos qui nemo enim, perspiciatis ea consequatur ad ullam quaerat.</div>
+        
     </div>
 </body>
 </html>
